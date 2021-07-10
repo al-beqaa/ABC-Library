@@ -11,11 +11,11 @@ Instead of using /title to display the message, take the original string you wer
 The priority can be used to ensure your message is displayed or to ensure it doesn't cover up more important information. Lower values are higher priority; I don't recommend going below 1. So, if you want to ensure your message is seen, set its priority to 1.
 
 A helpful guide:
-  priority 1: non-repeating messages
-  priority 2: repeating, important messages (ex. coordinate hud)
-  priority 3: repeating, lesser messages (ex. timers)
-  priority 4: even lesser
-  priority 5: etc.
+* priority 1: non-repeating messages
+* priority 2: repeating, important messages (ex. coordinate hud)
+* priority 3: repeating, lesser messages (ex. timers)
+* priority 4: even lesser
+* priority 5: etc.
 This is the intended usage.
 
 Once you've done this, run the function `abcl:message/check` as the player you want to send the message to, and it will appear for the next two seconds uninterrupted by messages that aren't of a higher priority.
