@@ -2,6 +2,8 @@ The Action Bar Compatibility Library should be used by datapacks that use the ac
 
 Especially when the message is displayed at a constant rate, using the action bar can create massive interference with the content of other packs. This is unfortunate considering its helpful nature. By using this library, you can limit conflict with other packs that do the same.
 
+**Please link this pack separately from your pack as a dependency. Don't redistribute.**
+
 ## Usage
 
 Instead of using /title to display the message, take the original string you were going to display and use it in this command:
