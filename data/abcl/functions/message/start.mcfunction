@@ -1,6 +1,6 @@
 # Schedule end of message, if applicable
 scoreboard players set $abcl.temp abcl.math 0
-execute if data storage abcl:storage temp.message.ClearInstantly store result score $abcl.temp abcl.math run data get storage abcl:storage temp.message.ClearInstantly
+execute if data storage abcl:storage temp.message.ClearImmediately store result score $abcl.temp abcl.math run data get storage abcl:storage temp.message.ClearImmediately
 execute unless score $abcl.temp abcl.math matches 1.. run function abcl:message/do_schedule
 
 # Set new priority score
